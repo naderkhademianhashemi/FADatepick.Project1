@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../persianDatepicker/persianDatePicker-default.css" rel="stylesheet" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../persianDatepicker/persianDatepicker.js"></script>
+</head>
+<body>
+
+    <input class="FA" name="txtDate" />
+    <script>
+        $(document).ready(function () {
+            $(".FA").persianDatepicker({ formatDate: "YYYY/0M/0D" });
+        })
+    </script>
+</body>
+</html>
